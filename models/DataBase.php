@@ -6,6 +6,7 @@
             $port = "3307";
             $database = "db_tps_nc_iv_2771440";
             $username = "root";
+            // $password = "";
             if (file_exists('.env')) {
                 $env = parse_ini_file('.env');
                 $password = $env['DB_PASSWORD'];
